@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>my portfolio </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+<p class="name">IRADUKUNDA Marie Diane</p>
+<ul id="sidemenu"> 
+    <li><a href="#header">Home</a></li>
+    <li><a href="# about">About</a></li>
+    <li><a href="#service">Service</a></li>
+    <li><a href="#projects">projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+</ul>
+<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+<P> Frontend developer</P>
+<h1>Hi, i'am <span>Marie</span>  <br>Diane</h1>
+            </div>
+        </div> 
+    </div>
+    <!-- ---------------about------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./pic/diane.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                <p>Hello, I'm Diane, a web developer with a passion for creating engaging and user-friendly websites. With few month of experience in web development, I have honed my skills in front-end and back-end technologies, including HTML, CSS, JavaScript, and various 
+                    frameworks like React and Angular.I enjoy tackling challenging projects and turning creative ideas into functional and visually appealing websites. My goal is to not only meet client expectations
+                     but exceed them by delivering 
+             high-quality, scalable solutions</p>
+                <div class="tab-title">
+<p class="tab-links active-link" onclck="opentab('skills')"> Skills</p>
+<p class="tab-links"onclck="opentab('experiance')"> Experiance</p>
+<p class="tab-links"onclck="opentab('education')"> Education</p>
+                </div>
+            
+                <div class="tab-contents active-tab"id="skills">
+                    <ul>
+                     <li><span>Web development</span><br>Web app development</li>
+                     <li><span>IOT</span><br>project developer</li>
+                     <li><span>Telecommunication</span><br>Telecommunication Engineering</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents "id="experiance">
+                   <ul>
+                    <li><span>2023</span><br>internaship in electronics</li>
+                    <li><span>2024</span><br>   Training in drone and robotics</li>
+                    <li><span>2022</span><br>Telecommunication Engineering</li>
+                   </ul>
+                </div>
+                <div class="tab-contents"id="education">
+                    <ul>
+                     <li><span>2023-current</span><br>Web app development</li>
+                     <li><span>2016-2018</span><br>programming language</li>
+                     <li><span>2019-current</span><br>Telecommunication Engineering</li>
+                    </ul>
+                 </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------services--------------- -->
+    <div id="service">
+    <div class="container">
+        <h1 class="sub-title"> My services</h1>
+        <div class="service-list"> 
+            <div>
+                <i class="fa-solid fa-code"></i>
+
+                <h2>web design</h2>
+                <p>we proved the web design service and other related with web development</p>
+            <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-crop"></i>
+                <h2>web design</h2>
+                <p>we proved the web design service and other related with web development</p>
+            <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-duotone fa-telescope"></i>
+                <h2>web design</h2>
+                <p>we proved the web design service and other related with web development</p>
+            <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- ------- projects-------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title"> My projects</h1> 
+            <div class="project-list">
+                <div class="proje">
+                    <img src="./pic/project2.jpg" >
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>the app connects you the talented people around
+                             Download it from play store</p>
+                             <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="proje">
+                    <img src="./pic/project1.jpg" >
+                    <div class="layer">
+                        <h3>iot things</h3>
+                        <p>the app connects you the talented people around
+                             Download it from play store</p>
+                             <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="proje">
+                    <img src="./pic/code-1839406_1280.jpg" >
+                    <div class="layer">
+                        <h3>web things</h3>
+                        <p>the app connects you the talented people around
+                             Download it from play store</p>
+                             <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <!-- -----------contact------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                <P> <i class="fa-solid fa-paper-plane"></i>iradudiane0@gmail.com</P>
+                <p><i class="fa-solid fa-phone"></i>+250790001370</p>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/home"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="./pic/Resume Marie Diane IRADUKUNDA.pdf" download class="btn btn2 ">Download CV</a>
+                </div>
+                <div class="contact-right"></div>
+                <form >
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required >
+                <textarea name="massege" row="6" placeholder="Your Message"></textarea> 
+                <button type="Submit" class="btn btn2">Submit</button> 
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright by Diane <i class="fa-solid fa-heart"></i>with visual studio code.</p>
+        </div>
+    </div>
+    <script> 
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+    
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+    
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
